@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "./style.css" />
+</head>
+
+<body>
+    <p id="num">
+        0
+    </p>
+
+    <button onclick="increase()">+</button>
+    <button onclick="decrease()">-</button>
+
+    <script src = "./main.js"></script>
+    
+        <!-- 프로젝트 파일 분리 방법
+        
+        파일을 분리하는 작업은 반드시 필요함
+          >> 보안상의 문제로 인해 필수적
+          >>> index.html / main.js / style.css 는 default 이름으로 많이 쓰이는 이름
+          **** 라이브러리나 템플릿 등 남이 만든 파일을 가져올 때에는 같은 이름으로 인한 충돌 발생으로 인해 이름 사용에 주의해야 함
+          
+          + 프로젝트 규모가 커졌을 때에는 하나의 파일 만으로는 관리가 어려울 수 있음
+          
+          파일관리 case 1) 확장자 단위 폴더 생성
+          [폴더]html
+          L index.html
+          L join.html
+
+          파일관리 case 2) 기능 단위 폴더 생성
+          [폴더]join
+          L join.html
+          L join.css
+          L join.js
+          -->
+
+</body>
+</html>
